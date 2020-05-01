@@ -27,13 +27,6 @@ typedef struct			s_list
 	struct s_list		*next;
 }						t_list;
 
-typedef struct			s_gnl_list
-{
-	int					fd;
-	char				data;
-	struct s_gnl_list	*next;
-}						t_gnl_list;
-
 void					*ft_memset(void *b, int c, size_t len);
 void					ft_bzero(void *s, size_t n);
 void					*ft_memcpy(void *dst, const void *src, size_t n);
@@ -67,7 +60,7 @@ int						ft_isprint(int c);
 int						ft_toupper(int c);
 int						ft_tolower(int c);
 void					*ft_memalloc(size_t size);
-void					ft_memdel(void **ap);
+int						ft_memdel(void **ap);
 char					*ft_strnew(size_t size);
 void					ft_strdel(char **as);
 void					ft_strclr(char *s);
@@ -100,9 +93,7 @@ void					ft_lstadd(t_list **alst, t_list *new);
 void					ft_lstiter(t_list *lst, void (*f)(t_list *elem));
 t_list					*ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));
 void					ft_lstadd_back(t_list **alst, t_list *new);
-void					ft_print_list(t_gnl_list *list);
 t_list					*ft_create_node(char *content, size_t content_size);
-t_gnl_list				*ft_create_elem_gnl(char data, int fd);
 int						get_next_line(const int fd, char **line);
 
 #endif

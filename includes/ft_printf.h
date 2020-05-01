@@ -46,7 +46,7 @@
 # define Z_SIZE			7
 # define T_SIZE			8
 
-# define BUFF_SIZE		1000
+# define BUFF_SIZE		2048
 
 # define NUM_SIZE		60000
 # define POW_5_27	7450580596923828125

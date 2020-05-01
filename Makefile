@@ -28,7 +28,6 @@ SOURCES_LIST = color.c \
     ft_atoi_base.c \
     ft_bzero.c \
     ft_count_of_digits.c \
-    ft_create_elem_gnl.c \
     ft_create_node.c \
     ft_isalnum.c \
     ft_isalpha.c \
@@ -52,7 +51,6 @@ SOURCES_LIST = color.c \
     ft_memmove.c \
     ft_memset.c \
     ft_pow.c \
-    ft_print_list.c \
     ft_printf.c \
     ft_putchar.c \
     ft_putchar_buf.c \
@@ -170,7 +168,7 @@ clean:
 	@echo "$(BOLD_YELLOW)$(NAME)$(RESET): $(RED)object files were deleted$(RESET)"
 
 fclean: clean
-	@rm -f libftprintf.a
+	@rm -f $(NAME)
 	@echo "$(BOLD_RED)$(NAME) deleted$(RESET)"
 
 
