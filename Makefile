@@ -20,7 +20,7 @@ HEADERS_LIST = libft.h ft_printf.h
 HEADERS_DIRECTORY = ./includes/
 HEADERS = $(addprefix $(HEADERS_DIRECTORY), $(HEADERS_LIST))
 
-SOURCES_DIRECTORY = ./
+SOURCES_DIRECTORY = ./sources/
 SOURCES_LIST = ft_atoi.c \
     ft_atoi_base.c \
     ft_bzero.c \
