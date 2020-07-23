@@ -36,7 +36,7 @@ Libft is a library, that uses only three ***libc*** functions: malloc(3), free(3
 | ft_atoi | Convert a string to an integer | ```int ft_atoi(const char *nptr);``` | Converts the initial portion of the string pointed to by ***nptr*** to int. | The converted value. |
 | ft_isalpha |Character classification| ```int ft_isalpha(int c);``` | Checks for an alphabetic character | Nonzero if the character ***c*** falls into the tested class, and zero if not. |
 | ft_isdigit |Character classification| ```int ft_isdigit(int c);``` | Checks for a digit (0 through 9). |- " -|
-| ft_isalnum |Character classification| ```int ft_isalnum(int c);``` | Checks for an alphanumeric character; it is equivalent to ```(ft_isalpha(c) &#124;&#124; ft_isdigit(c))```.| - " - |
+| ft_isalnum |Character classification| ```int ft_isalnum(int c);``` | Checks for an alphanumeric character; it is equivalent to (ft_isalpha(c) &#124;&#124; ft_isdigit(c)).| - " - |
 | ft_isascii |Character classification| ```int ft_isascii(int c);``` | Checks whether ***c*** is a 7-bit unsigned char value that fits into the ASCII character set.| - " - |
 | ft_isprint |Character classification| ```int ft_isprint(int c);``` | Checks for any printable character including space. | - " -|
 | ft_toupper |Convert uppercase| ```int ft_toupper(int c);``` | Returns its uppercase equivalent, if an uppercase representation exists in the current locale.  Otherwise, it returns ***c***. | The value returned is that of the converted letter, or ***c*** if the conversion was not possible. |
