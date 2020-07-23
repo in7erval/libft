@@ -10,8 +10,8 @@ Libft is a library, that uses only three ***libc*** functions: malloc(3), free(3
 
 ## Function's Description
 
-| Function | Description | Example | Descript.... | Return value |
-|---------:|:-----------:|:------- |:-------------|:-------------|
+| Function | Action | Prototype | Description| Return value |
+|:---------:|:-----------|:------- |:-------------|:-------------:|
 | ft_memset | Fill block of memory | void * ft_memset ( void * ptr, int value, size_t num ); | Sets the first num bytes of the block of memory pointed by ptr to the specified value (interpreted as an unsigned char). | Pointer to the memory area s.  |
 | ft_bzero | Zero a byte string |void ft_bzero(void *s, size_t n);|Erases the data in the n bytes of the memory starting at the location pointed to by s, by writing zeros (bytes containing '\0') to that area.| - |
 | ft_memcpy |Copy memory area|void *ft_memcpy(void *dest, const void *src, size_t n);|Copies n bytes from memory area src to memory area dest.  The memory areas must not overlap.| Pointer to dest. |
