@@ -73,7 +73,7 @@ Libft is a library, that uses only three ***libc*** functions: malloc(3), free(3
 | ft_lstmap | Apply function to each node | ```t_list *ft_lstmap(t_list *lst, t_list *(*f)(t_list *elem));``` | Iterates a list lst and applies the function ***f*** to each link to create a “fresh” list (using malloc(3)) resulting from the successive applications of ***f***. If the allocation fails, the function returns NULL. | The new list. |
 | **get_next_line** | Get string from file descriptor | ```int get_next_line(const int fd, char **line);``` | Save **line** from **fd**. | The return value can be 1, 0 or -1 depending on whether a line has been read, when the reading has been completed, or if an error has happened respectively. |
 
-[:arrow_up: To beginning](#Function's_Description)
+[:arrow_up: To beginning](#Function\'s_Description)
 
 ---
 ## ft_printf
