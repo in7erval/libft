@@ -85,7 +85,7 @@ Print **format** string to stdout. (Similar to printf).
 
 Bonus: color print. Example: 
 ```c
-printf("This text will be cyan:{cyan}%s{eoc} red: {red}%s{eoc}", cyanstr, redstr);
+ft_printf("This text will be cyan:{cyan}%s{eoc} red: {red}%s{eoc}", cyanstr, redstr);
 ``` 
 - ***Colors of text***: ```{black}```, ```{red}```, ```{green}```, ```{yellow}```, ```{blue}```, ```{magenta}```, ```{cyan}```.
 - ***Colors of background***: ```{black_bg}```, ```{red_bg}```, ```{green_bg}```, ```{yellow_bg}```, ```{blue_bg}```, ```{magenta_bg}```.
