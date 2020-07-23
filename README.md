@@ -1,5 +1,5 @@
 # Libft
-
+![launch](https://github.com/in7erval/libft/blob/master/gif_libft.gif "Launch")
 ---
 
 ## What is it?
