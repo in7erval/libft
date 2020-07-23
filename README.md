@@ -89,6 +89,7 @@ ft_printf("This text will be cyan:{cyan}%s{eoc} red: {red}%s{eoc}", cyanstr, red
 ``` 
 - ***Colors of text***: ```{black}```, ```{red}```, ```{green}```, ```{yellow}```, ```{blue}```, ```{magenta}```, ```{cyan}```.
 - ***Colors of background***: ```{black_bg}```, ```{red_bg}```, ```{green_bg}```, ```{yellow_bg}```, ```{blue_bg}```, ```{magenta_bg}```.
-- ***Attributes***: ```{bold}```, ```{light}```, ```{underline}```, ```{normal}```, ```{invert}```, ```{hidden}```. ```{eoc}``` - end of color.
+- ***Attributes***: ```{bold}```, ```{light}```, ```{underline}```, ```{normal}```, ```{invert}```, ```{hidden}```.
+- ```{eoc}``` - end of color.
 
 Return value: Count of printed characters
